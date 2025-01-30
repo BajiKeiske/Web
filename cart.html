@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Корзина</title>
+    <style>
+        body {
+            font-family: 'Garamond', serif;
+            background-color: #E6E6FA;
+            color: #333;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            padding: 20px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .cart-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+            border-bottom: 1px solid #ccc;
+        }
+        .cart-item img {
+            width: 80px;
+            border-radius: 5px;
+        }
+        .cart-item p {
+            margin: 0;
+            flex: 1;
+        }
+        .btn {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 10px 20px;
+            background: #DDA0DD;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .btn:hover {
+            background: #DA70D6;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Корзина</h1>
+    <div class="cart-item">
+        <img src="https://img.restoclub.ru/uploads/newsinner/c/2/d/d/c2ddaab42c3b29adf57db8314241a378_w1200_h630--c.jpeg" alt="Abbey Road">
+        <p>Abbey Road - The Beatles</p>
+        <p>Цена: 3000₽</p>
+        <a href="#" class="btn">Удалить</a>
+    </div>
+    <div class="cart-item">
+        <img src="https://cdn1.ozone.ru/s3/multimedia-j/6371591119.jpg" alt="Back in Black">
+        <p>Back in Black - AC/DC</p>
+        <p>Цена: 2800₽</p>
+        <a href="#" class="btn">Удалить</a>
+    </div>
+    <div class="cart-item">
+        <img src="https://avatars.mds.yandex.net/get-mpic/11477103/2a0000018c7db907ec806a3d649e37805649/orig" alt="The Dark Side of the Moon">
+        <p>The Dark Side of the Moon - Pink Floyd</p>
+        <p>Цена: 3200₽</p>
+        <a href="#" class="btn">Удалить</a>
+    </div>
+    <div class="cart-item">
+        <img src="https://m.media-amazon.com/images/M/MV5BZDQzNjI1MzEtNTA4MS00NDZhLTk2YTAtMjUwZDk4MTE2YWU5XkEyXkFqcGdeQXVyNTAyNDQ2NjI@._V1_FMjpg_UX1000_.jpg" alt="Thriller">
+        <p>Thriller - Michael Jackson</p>
+        <p>Цена: 3500₽</p>
+        <a href="#" class="btn">Удалить</a>
+    </div>
+
+    <h2>Итого: 12500₽</h2>
+    <a href="checkout.html" class="btn">Оформить заказ</a>
+    <br><br>
+    <a href="vinyls.html" class="btn">Вернуться к покупкам</a>
+</div>
+
+</body>
+</html>

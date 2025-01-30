@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <title>Пластинки</title>
+    <style>
+        body {
+            font-family: 'Garamond', serif;
+            background-color: #E6E6FA;
+            color: #333;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            padding: 20px;
+        }
+        .vinyl-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+        .vinyl-item {
+            background: #fff;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .vinyl-item img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        .btn {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 8px 15px;
+            background: #DDA0DD;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .btn:hover {
+            background: #DA70D6;
+        }
+        .cart-icon {
+            position: absolute;
+            top: 20px;
+            right: 50px;
+        }
+        .cart-icon img {
+            width: 40px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+<a href="cart.html" class="cart-icon">
+    <span class="material-icons">shopping_cart</span>
+</a>
+
+
+<div class="container">
+    <h1>Каталог виниловых пластинок</h1>
+    <div class="vinyl-list">
+        <div class="vinyl-item">
+            <img src="https://img.restoclub.ru/uploads/newsinner/c/2/d/d/c2ddaab42c3b29adf57db8314241a378_w1200_h630--c.jpeg" alt="Abbey Road">
+            <h3>Abbey Road</h3>
+            <p>Исполнитель: The Beatles</p>
+            <p>Жанр: Рок</p>
+            <p>Год выпуска: 1969</p>
+            <a href="vinyl1.html" class="btn">Подробнее</a>
+            <a href="cart.html" class="btn">В корзину</a>
+        </div>
+        <div class="vinyl-item">
+            <img src="https://cdn1.ozone.ru/s3/multimedia-j/6371591119.jpg" alt="Back in Black">
+            <h3>Back in Black</h3>
+            <p>Исполнитель: AC/DC</p>
+            <p>Жанр: Хард-рок</p>
+            <p>Год выпуска: 1980</p>
+            <a href="vinyl2.html" class="btn">Подробнее</a>
+            <a href="cart.html" class="btn">В корзину</a>
+        </div>
+        <div class="vinyl-item">
+            <img src="https://avatars.mds.yandex.net/get-mpic/11477103/2a0000018c7db907ec806a3d649e37805649/orig" alt="The Dark Side of the Moon">
+            <h3>The Dark Side of the Moon</h3>
+            <p>Исполнитель: Pink Floyd</p>
+            <p>Жанр: Прогрессивный рок</p>
+            <p>Год выпуска: 1973</p>
+            <a href="vinyl3.html" class="btn">Подробнее</a>
+            <a href="cart.html" class="btn">В корзину</a>
+        </div>
+        <div class="vinyl-item">
+            <img src="https://m.media-amazon.com/images/M/MV5BZDQzNjI1MzEtNTA4MS00NDZhLTk2YTAtMjUwZDk4MTE2YWU5XkEyXkFqcGdeQXVyNTAyNDQ2NjI@._V1_FMjpg_UX1000_.jpg" alt="Thriller">
+            <h3>Thriller</h3>
+            <p>Исполнитель: Michael Jackson</p>
+            <p>Жанр: Поп</p>
+            <p>Год выпуска: 1982</p>
+            <a href="vinyl4.html" class="btn">Подробнее</a>
+            <a href="cart.html" class="btn">В корзину</a>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2025 Vinyl</p>
+</footer>
+
+</body>
+</html>
+
+
+
+
+
+
+

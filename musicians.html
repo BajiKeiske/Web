@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Музыканты</title>
+    <style>
+        body {
+            font-family: 'Garamond', serif;
+            background-color: #E6E6FA;
+            color: #333;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 900px;
+            margin: 50px auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #6b4226;
+        }
+        .nav {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-bottom: 20px;
+        }
+        .nav a {
+            text-decoration: none;
+            color: white;
+            background: #DDA0DD;
+            padding: 10px 20px;
+            border-radius: 5px;
+            transition: 0.3s;
+        }
+        .nav a:hover {
+            background: #DA70D6;
+        }
+        .musicians-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+        .musician {
+            background: #fff;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .musician img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+        footer {
+            margin-top: 20px;
+            padding: 10px;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1>Каталог музыкантов</h1>
+    <nav class="nav">
+        <a href="index.html">Главная</a>
+        <a href="vinyls.html">Виниловые пластинки</a>
+    </nav>
+
+    <section class="musicians-list">
+        <article class="musician">
+            <img src="https://a.d-cd.net/565298es-960.jpg" alt="Виктор Цой">
+            <h2>Виктор Цой</h2>
+            <p><strong>Инструмент:</strong> Гитара, вокал</p>
+            <p><strong>Дата рождения:</strong> 21.06.1962</p>
+        </article>
+
+        <article class="musician">
+            <img src="https://cdn1.ozone.ru/s3/multimedia-h/6286522397.jpg" alt="Майкл Джексон">
+            <h2>Майкл Джексон</h2>
+            <p><strong>Инструмент:</strong> Вокал</p>
+            <p><strong>Дата рождения:</strong> 29.08.1958</p>
+        </article>
+
+        <article class="musician">
+            <img src="https://s14.stc.yc.kpcdn.net/share/i/12/7690553/wr-960.webp" alt="Фредди Меркьюри">
+            <h2>Фредди Меркьюри</h2>
+            <p><strong>Инструмент:</strong> Вокал, клавишные</p>
+            <p><strong>Дата рождения:</strong> 05.09.1946</p>
+        </article>
+
+        <article class="musician">
+            <img src="https://avatars.mds.yandex.net/get-mpic/1428687/img_id8780432327958037237.jpeg/orig" alt="Курт Кобейн">
+            <h2>Курт Кобейн</h2>
+            <p><strong>Инструмент:</strong> Гитара, вокал</p>
+            <p><strong>Дата рождения:</strong> 20.02.1967</p>
+        </article>
+    </section>
+</div>
+
+<footer>
+    <p>&copy; 2025 Vinyl</p>
+</footer>
+</body>
+</html>
